@@ -1,19 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=VT323&display=swap");
 
 
-.Contenedor{
-    display: flexbox;
+
+
+/* El contenedor ocupa toda la pantalla */
+  body {
+    margin: 0;
+    height: 100vh; /* 100% de la altura de la ventana */
+    display: grid; /* Activar Grid */
+    place-items: center; /* Centrar horizontal y verticalmente */
+    background-color: darkblue;
+  }
+
+  /* El div centrado */
+  .boton {
+    background-color: yellowgreen;
+    color: black;
+    padding: 70px 200px;
+    font-size: 30px;
     justify-content: center;
-    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    margin-bottom: 25px;
+  }
 
-}
-.boton{
-    height: 30px;
-    width: 30px;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-body{
-background-color: rgb(0, 2, 29);    
-}   
+  .titulo{
+    color: aliceblue;
+    font-size: 100px;
+    font-family: "vt323";
+  }
