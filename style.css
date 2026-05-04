@@ -1,40 +1,52 @@
 @import url("https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=VT323&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
 
 
 
 /* El contenedor ocupa toda la pantalla */
-  body {
+body {
     margin: 0;
-    height: 100vh; /* 100% de la altura de la ventana */
-    display: grid; /* Activar Grid */
-    place-items: center; /* Centrar horizontal y verticalmente */
+    height: 100vh;
+    /* 100% de la altura de la ventana */
+    display: grid;
+    /* Activar Grid */
+    place-items: center;
+    /* Centrar horizontal y verticalmente */
     background-color: darkblue;
-  }
+}
 
-  .TextBoto{
+.Text-Instruccions {
+    color: white;
+    margin: 20px;
+    font-size: 35px;
+    font-family: "Nunito Sans";
+}
+
+.TextBoto {
     text-decoration: none;
     color: black;
-  }
-  /* El div centrado */
-  .boton {
+}
+
+/* El div centrado */
+.boton {
     background-color: yellowgreen;
     color: black;
     padding: 70px 200px;
     font-size: 30px;
     justify-content: center;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 25px;
-  }
+}
 
-  .titulo{
+.titulo {
     color: aliceblue;
     font-size: 100px;
     font-family: "vt323";
-  }
+}
 
-  footer{
+footer {
     height: 25px;
     position: fixed;
     bottom: 0;
@@ -43,4 +55,4 @@
     margin: 0px;
     text-align: center;
     background-color: gray;
-  }
+}
