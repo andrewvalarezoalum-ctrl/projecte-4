@@ -12,6 +12,10 @@
     background-color: darkblue;
   }
 
+  .TextBoto{
+    text-decoration: none;
+    color: black;
+  }
   /* El div centrado */
   .boton {
     background-color: yellowgreen;
@@ -28,4 +32,15 @@
     color: aliceblue;
     font-size: 100px;
     font-family: "vt323";
+  }
+
+  footer{
+    height: 25px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    margin: 0px;
+    text-align: center;
+    background-color: gray;
   }
